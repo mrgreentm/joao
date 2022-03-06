@@ -1,7 +1,6 @@
 .nav-bar-container {
     background: url('../../assets/endless-constellation.svg');
     padding: 3rem 1rem;
-    height: 20rem;
     display: flex;
     justify-content: space-between;
     gap: 1%;
@@ -48,4 +47,14 @@ p {
     letter-spacing: 1.5px;
 }
 
-.social-media {}
+@media (max-width:1024px) {
+    .nav-bar-container {
+        padding: 1rem 2rem 0 2rem;
+    }
+    .joao-container {
+        width: 100%;
+    }
+    .menu-container {
+        display: none;
+    }
+}

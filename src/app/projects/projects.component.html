@@ -1,6 +1,6 @@
-<h1>Projetos e Artigos</h1>
+<h1>Projetos & Artigos</h1>
 <div class="container-projects">
-    <carousel [cellsToShow]="4" [dots]="true" [autoplay]="true" [loop]="false" [arrowsTheme]="'dark'" [transitionTimingFunction]="'ease-in-out'">
+    <carousel [cellsToShow]="4" [dots]="true" [autoplay]="true" [loop]="false" [arrowsTheme]="'dark'" [transitionTimingFunction]="'ease-out'">
         <div *ngFor="let element of projectsAndArticles" class="carousel-cell">
             <a href="{{element.url}}">
                 {{element.name}}
