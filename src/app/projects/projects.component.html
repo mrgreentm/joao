@@ -1,0 +1,11 @@
+<h1>Projetos e Artigos</h1>
+<div class="container-projects">
+    <carousel [cellsToShow]="4" [dots]="true" [autoplay]="true" [loop]="false" [arrowsTheme]="'dark'" [transitionTimingFunction]="'ease-in-out'">
+        <div *ngFor="let element of projectsAndArticles" class="carousel-cell">
+            <a href="{{element.url}}">
+                {{element.name}}
+        </a>
+            <img src="../../assets/iconmonstr-github-3.svg" alt="git-hub">
+        </div>
+    </carousel>
+</div>

@@ -9,12 +9,16 @@ import { MatTableModule } from '@angular/material/table';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { ProjectsComponent } from './projects/projects.component';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    StacksComponent
+    StacksComponent,
+    ProjectsComponent
   ],
   imports: [
     BrowserModule,
@@ -22,7 +26,8 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     MatTableModule,
     BrowserAnimationsModule,
     MatCardModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

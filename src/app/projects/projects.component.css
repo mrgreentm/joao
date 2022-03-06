@@ -1,0 +1,32 @@
+h1 {
+    margin: 2rem auto 0 auto;
+    width: max-content;
+    color: #2299ffb5;
+    padding: 1rem;
+}
+
+.container-projects {
+    padding-bottom: 3rem;
+    width: 80%;
+    margin: auto;
+}
+
+.carousel-cell {
+    width: 450px;
+    height: 200px;
+    background-color: #2299ff;
+    text-align: center;
+    border-radius: 16px;
+    transition: all 0.5s;
+}
+
+.carousel-cell:hover {
+    background-color: #0f5b9d;
+    transition: all 0.5s;
+}
+
+a {
+    margin-top: 1rem;
+    font-weight: 500;
+    color: black;
+}
