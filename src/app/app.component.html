@@ -1,3 +1,5 @@
 <app-nav-bar></app-nav-bar>
-<app-stacks></app-stacks>
+<div [@openClose]="isOpen ? 'open' : 'closed'">
+    <app-stacks></app-stacks>
+</div>
 <app-projects></app-projects>

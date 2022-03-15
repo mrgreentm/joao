@@ -8,7 +8,7 @@ mat-card {
 h1 {
     margin: auto;
     width: max-content;
-    color: #2299ffb5;
+    color: #1BC6B4;
     padding: 1rem;
 }
 
@@ -16,12 +16,22 @@ table {
     width: 100%;
 }
 
+th,
+td {
+    color: #A1B4C4;
+    font-weight: 100;
+}
+
 th {
-    background-color: #2299ff4a;
+    background-color: #32383D;
 }
 
 tr:nth-child(odd) {
-    background-color: #2298ff2f;
+    background-color: #4C555C;
+}
+
+tr:nth-child(2n) {
+    background-color: #454e55;
 }
 
 .img {

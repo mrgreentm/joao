@@ -13,6 +13,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +28,7 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
     BrowserAnimationsModule,
     MatCardModule,
     MatProgressSpinnerModule,
-    IvyCarouselModule
+    IvyCarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

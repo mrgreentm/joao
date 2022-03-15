@@ -1,13 +1,13 @@
 <section class="nav-bar-container">
-    <div class="joao-container">
-        <h1>João</h1>
-        <h1>Jacinto</h1>
+    <div [@openClose]="isOpen ? 'open' : 'closed'" class="joao-container">
+        <p>Olá, mundo! Meu nome é</p>
+        <h1>João Jacinto</h1>
         <p>Desenvolvedor Front-end com experiência em JavaScript e Frameworks como Angular e React. Técnico em Redes de Computadores, João gosta de diversas áreas da Tecnologia, podendo se adaptar a qualquer Linguagem ou Framework.</p>
     </div>
-    <div class="menu-container">
-        <a href="">Home</a>
-        <a href="">Quem sou?</a>
-        <a href="">Projetos e Artigos</a>
+    <div class="joao-container" class="menu-container">
+        <a [@openClose]="isOpen ? 'initedOne' : 'closed'" href="">Home</a>
+        <a [@openClose]="isOpen ? 'initedTwo' : 'closed'" href="">Quem sou?</a>
+        <a [@openClose]="isOpen ? 'initedThree' : 'closed'" href="">Projetos e Artigos</a>
     </div>
     <div class="social-media">
     </div>
